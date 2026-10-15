@@ -1,0 +1,18 @@
+# logging:
+#   level:
+#     io:
+#       modelcontextprotocol:
+#         client: DEBUG
+#         spec: DEBUG
+
+# spring:
+#   application:
+#     name: spring-boot-ai-gemini-integration
+#   ai:
+#     openai:
+#       api-key: "your_api_key"
+#       base-url: https://api.openai.com/v1
+#       chat:
+#         completions-path: /chat/completions
+#         options:
+#           model: gemini-2.5-pro
